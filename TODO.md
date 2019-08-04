@@ -1,0 +1,19 @@
+TODO
+----
+- [ ] Merge builds into one script
+    - [X] option for input filename
+    - [X] option for writing out to specific file
+    - [X] option to specify error rate
+    - [X] option to skip first line (default true?)
+    - [X] option to choose which column (assumes csv format; numbering starts at 1)
+    - [X] option to unhexlify before add
+    - [X] option to ignore "comment" lines (starts with # or //)
+    - [ ] option for read from stdin; requires option specifying total #of entries
+    - [ ] logging instead of print(), tied to verbosity and logdest args
+    - [ ] option to lowercase before add (to normalize)
+- [ ] Searching
+    - [X] Better output
+    - [X] option to unhexlify before search
+    - [ ] option to lowercase before search (to normalize)
+- [X] Python3-ify
+- [ ] Add tests (pytest?)
